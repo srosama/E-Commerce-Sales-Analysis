@@ -11,7 +11,7 @@
       - `create_views.sql`
     - `procedures/`
       - `create_procedures.sql`
-    - `triggers/`
+    - `triggers/ (Soon) `
       - `create_triggers.sql`
   - `scripts/`
     - `run_queries.sh`
