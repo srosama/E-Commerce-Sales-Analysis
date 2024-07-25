@@ -1,5 +1,38 @@
 # E-Commerce-Sales-Analysis
 
+  - `sql/`
+    - `schema/`
+      - `create_tables.sql`
+      - `insert_data.sql`
+    - `queries/`
+      - `basic_queries.sql`
+      - `advanced_queries.sql`
+    - `views/`
+      - `create_views.sql`
+    - `procedures/`
+      - `create_procedures.sql`
+    - `triggers/`
+      - `create_triggers.sql`
+  - `scripts/`
+    - `run_queries.sh`
+    - `setup_database.sh`
+    - `cleanup.sh`
+  - `etl/`
+    - `extract/`
+      - `extract_data.sh`
+    - `transform/`
+      - `transform_data.sql`
+    - `load/`
+      - `load_data.sql`
+  - `reports/`
+    - `top_selling_products_report.sql`
+    - `most_valuable_customers_report.sql`
+    - `monthly_sales_trends_report.sql`
+    - `customer_reviews_report.sql`
+  - `README.md`
+
+
+
 ## Project Overview
 
 This project involves analyzing sales data from an e-commerce platform to gain insights into various aspects such as customer behavior, product performance, and sales trends. The project includes the following steps:
@@ -10,6 +43,7 @@ This project involves analyzing sales data from an e-commerce platform to gain i
 4. **Creating Views for Common Queries**
 5. **Creating Stored Procedures for Reusable Logic**
 6. **Creating Triggers for Automating Data Updates**
+7. **ETL (Extract, Transform, Load) Process**
 
 ## Detailed Steps
 
@@ -49,6 +83,22 @@ Create triggers to automate data updates, such as updating product stock after a
 
 - `create_triggers.sql`: Script to create a trigger for updating product stock.
 
+### 7. ETL (Extract, Transform, Load) Process
+
+Implement an ETL process to extract data from source files, transform it, and load it into the database:
+
+#### Extract
+
+- `extract_data.sh`: Shell script to extract data from source files.
+
+#### Transform
+
+- `transform_data.sql`: SQL script to transform the extracted data into a suitable format for analysis.
+
+#### Load
+
+- `load_data.sql`: SQL script to load the transformed data into the database.
+
 ## Scripts
 
 - `run_queries.sh`: Shell script to run all the queries.
@@ -69,9 +119,13 @@ The `reports/` directory contains SQL scripts for generating various reports:
 1. Clone the repository.
 2. Navigate to the `ecommerce-sales-analysis` directory.
 3. Run `setup_database.sh` to set up the database and insert sample data.
-4. Use the SQL scripts in `sql/queries/` to run basic and advanced queries.
-5. Use the SQL scripts in `sql/views/`, `sql/procedures/`, and `sql/triggers/` to create views, procedures, and triggers.
-6. Generate reports using the scripts in the `reports/` directory.
+4. Run the ETL process scripts:
+   - `etl/extract/extract_data.sh`
+   - `etl/transform/transform_data.sql`
+   - `etl/load/load_data.sql`
+5. Use the SQL scripts in `sql/queries/` to run basic and advanced queries.
+6. Use the SQL scripts in `sql/views/`, `sql/procedures/`, and `sql/triggers/` to create views, procedures, and triggers.
+7. Generate reports using the scripts in the `reports/` directory.
 
 ## Contributions
 
@@ -80,3 +134,4 @@ Feel free to submit pull requests or open issues if you find any bugs or have su
 ## License
 
 This project is licensed under the MIT License.
+
