@@ -1,1 +1,5 @@
---  SQL VIEWS + Complex Queries, Cross Joins, Unions, and more! |¦| SQL Tutorial 
+-- Top-selling products
+
+-- Most valuable customers
+
+-- Monthly sales trends

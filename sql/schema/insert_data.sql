@@ -1,0 +1,1 @@
+-- Insert sample data to the database to start

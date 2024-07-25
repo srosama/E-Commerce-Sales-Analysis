@@ -36,7 +36,7 @@ This project involves analyzing sales data from an e-commerce platform to gain i
 4. **Creating Views for Common Queries**
 5. **Creating Stored Procedures for Reusable Logic**
 6. **Creating Triggers for Automating Data Updates**
-7. **ETL (Extract, Transform, Load) Process**
+7. **ETL (Extract, Transform, Load) Process (Soon)**
 
 ## Detailed Steps
 
