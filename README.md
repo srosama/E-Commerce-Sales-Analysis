@@ -128,3 +128,64 @@ Feel free to submit pull requests or open issues if you find any bugs or have su
 
 This project is licensed under the MIT License.
 
+
+
+## SQL Concepts Introduced in the Project
+* Querying Data
+* Sorting Data
+* Filtering Data
+    * DISTINCT
+    * LIMIT and OFFSET 
+    * FETCH
+    * WHERE
+    * Logical operators 
+    * OR operator
+    * IN Operator
+    * LIKE Operator
+    * IS NULL Operator
+    * NOT operator
+* Conditional Expressions
+  * CASE Expression 
+* Joining Multiple Tables
+  * SQL Aliases 
+  * INNER JOIN 
+  * LEFT OUTER JOIN 
+  * FULL OUTER JOIN
+  * CROSS JOIN
+  * SELF JOIN
+* Aggregate Functions
+    * AVG 
+    * COUNT 
+    * SUM 
+    * MAX
+    * MIN 
+* Grouping Data
+    * GROUP BY
+    * HAVING
+    * GROUPING SETS
+    * ROLLUP
+    * CUBE
+* SET Operators
+  * UNION and UNION ALL 
+  * INTERSECT 
+  * MINUS 
+* Subquery
+  * Correlated Subquery 
+  * EXISTS
+  * ALL
+  * ANY
+* Modifying data
+  * INSERT 
+  * UPDATE 
+  * DELETE 
+* Working with table structures
+  * CREATE TABLE 
+  * ALTER TABLE 
+  * DROP TABLE 
+  * TRUNCATE TABLE
+* Constraints
+  * PRIMARY KEY
+  * FOREIGN KEY
+  * UNIQUE
+  * NOT NULL
+  * CHECK
