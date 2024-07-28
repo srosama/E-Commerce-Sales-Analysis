@@ -1,3 +1,5 @@
+--Defines views to simplify complex queries.
+
 -- View for top-selling products
 
 -- View for most valuable customers

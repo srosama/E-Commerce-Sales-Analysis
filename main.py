@@ -1,22 +1,25 @@
 """
-E-commerce Sales Analytics: 
-
-This file will be the main CLI for running the application 
-The backend will be Pure sql
-The UI will be using in the application is streamlit 
+E-commerce Sales Analytics
 """
 
+import click
+from util.helps import colorful_greeting
 
 
-"""
-This file will run bunsh of bash (.sh) command and start the streamlit application
-MAIN CLI insall some packages and functions est.. 
-"""
+
+@click.command()
+@click.option("--email", prompt="Your email", help="The email address of the user.")
+@click.option("--password", prompt="Your password", help="The password of the user.")
+def hello(email, password):
+ 
+    click.echo(f"Email: {email}")
+    click.echo(f"Password: {password}")
+
+
+
 def main() -> None:
-    pass
+    colorful_greeting()
+    hello()
 
-
-
-# Run the app
 if __name__ == "__main__":
     main()
