@@ -1,4 +1,4 @@
-# E-Commerce-Sales-Analysis <a href="https://google.com"> CLICK HERE -> (LIVE DEMO)</a>
+# E-Commerce-Sales-Analysis <a href="https://stunning-garbanzo-j65x6r7qg9xc54wj-8501.app.github.dev/"> CLICK HERE -> (LIVE DEMO)</a>
 
 ![EC(1)](https://github.com/user-attachments/assets/06763fed-ef3e-4c2b-9aae-552b2d5ab293)
 ## Project Overview
@@ -19,16 +19,24 @@ This project involves analyzing sales data from an fake e-commerce platform to g
 - `monthly_sales_trends_report.sql`: Report on monthly sales trends.
 - `customer_reviews_report.sql`: Report on customer reviews.
 
-## How to Run
+## <a name="get-started">⚙️ Get Started</a>
 
-1. Clone the repository.
-2. Navigate to the `ecommerce-sales-analysis` directory.
-3. Run `setup_database.sh` to set up the database and insert sample data.
-5. Use the SQL scripts in `sql/queries/` to run basic and advanced queries.
-6. Use the SQL scripts in `sql/views/`, `sql/procedures/`, and `sql/triggers/` to create views, procedures, and triggers.
-7. Generate reports using the scripts in the `reports/` directory.
+To set up the data-app:
 
-
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/srosama/E-Commerce-Sales-Analysis.git
+   cd E-Commerce-Sales-Analysis
+   ```
+2. **Install Dependencies:**
+   ```sh
+   pip install requirements.txt
+   ```
+3. **Start the Development Server:**
+   ```sh
+   python3 main.py
+   ```
+   
 ## SQL Concepts Introduced in the Project
 * Querying Data
 * Sorting Data
